@@ -19,16 +19,18 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
 ```
-x = eval(input())
-y = eval(input())
-temp = x
-x = y
-y = temp
-print("Swapped values are:",x,y)
-```
+# Initial values
+surya_ball = input()
+vijay_ball = input()
 
+# Swapping using a temporary variable
+temp = surya_ball
+surya_ball = vijay_ball
+vijay_ball = temp
+
+print("Swapped values are:", surya_ball, vijay_ball)
+```
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
