@@ -10,11 +10,12 @@ print(solution)
 
 
 Write a program to find the rank for the given matrix [[5,-3,-10],[2,2,-3],[-3,-1,5]]
+
 ```
 import numpy as np
 a = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-solution=np.linalg.matrix_rank(a)
-print(solution)
+rank=np.linalg.matrix_rank(a)
+print(rank)
 ```
 Write a python program to find the inverse of the given matrix
 
