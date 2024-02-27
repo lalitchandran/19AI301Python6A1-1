@@ -98,7 +98,6 @@ Substitute the values in the distance formula
 
 √((x_2-x_1)²+(y_2-y_1)²)
 
-![formula](./images/formula.png)
 ### Step 4: 
 using the print function, display the distance between the two points.
 ### Step 5: 
